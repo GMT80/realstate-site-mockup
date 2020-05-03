@@ -1,0 +1,100 @@
+:root {
+    --primary: #71b100;
+    --secondary: #e08709;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+}
+
+.bg-success {
+    background-color: var(--primary) !important;
+}
+
+@media (min-width: 768px) {
+    .top-bar.bg-success {
+        background-color: transparent !important;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .header .top-bar {
+        position: absolute;
+        z-index: 100;
+    }
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.navbar-brand span {
+    font-weight: 900;
+}
+
+.navbar-nav .nav-link {
+    text-transform: uppercase;
+    color: #ffffff !important;
+    font-size: .8rem;
+}
+
+/* ! Dropdown */
+.dropdown-menu {
+    background-color: var(--primary);
+}
+
+.dropdown-menu .dropdown-item {
+    color: #ffffff;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: var(--secondary);
+}
+
+/* ! Info-Block in slider */
+.carousel-caption h3 {
+    font-size: 2.4rem;
+}
+
+.info-block h4 {
+    font-size: 1.2rem;
+}
+
+.info-block .price {
+    font-size: 1.4rem;
+}
+
+.btn-warning {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* ! About Us */
+.about-us h3 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+/* ! Properties */
+.properties .card {
+    margin-bottom: 2rem;
+}
+
+.properties .card-price {
+    font-size: 1.1rem;
+    color: var(--primary);
+}
+
+.properties .card-description img {
+    margin-right: .5rem;
+}
