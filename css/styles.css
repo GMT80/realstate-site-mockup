@@ -82,8 +82,14 @@ h3 {
 
 /* ! About Us */
 .about-us h3 {
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 700;
+}
+
+@media (min-width: 992px) {
+    .about-us h3 {
+        font-size: 1rem;   
+    }    
 }
 
 /* ! Properties */
@@ -101,7 +107,6 @@ h3 {
 }
 
 /* ! Find your house */
-
 .find-your-house {
     background-image: url(../img/contact.jpg);
     background-repeat: no-repeat;
@@ -158,7 +163,7 @@ h3 {
     font-weight: 300;
 }
 
- .testimonials .testimonial-text::before {
+.testimonials .testimonial-text::before {
     content: open-quote;
     font-size: 4rem;
     position: absolute;
@@ -170,4 +175,14 @@ h3 {
 .testimonials span {
     font-style: 1.4rem;
     font-weight: 900;
+}
+
+/* ! Footer */
+.footer.bg-dark {
+    background-color: #333333 !important;
+}
+
+.footer .nav-link {
+    color: white;
+    text-transform: uppercase;
 }
